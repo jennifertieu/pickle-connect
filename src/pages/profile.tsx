@@ -21,10 +21,6 @@ const Profile = () => {
   // when user interacts with the form, display validation
   // onSubmit, validation form, update data, and show notifications of success/error
 
-  // TODO: Location Services
-  // user may view if their location is enabled
-  // then have an option to enable their location by displaying instructions on how to enable on their device/browser
-
   // TODO: Connections
   // fetch user connections and display
   // user may remove connection
