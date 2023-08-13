@@ -80,6 +80,7 @@ PickleConnect is a pickleball app for finding nearby courts, scheduling games, a
 - [![Next][Next.js]][Next-url]
 - [![React][React.js]][React-url]
 - [![Tailwind][Tailwindcss.com]][TailwindCSS-url]
+- [![DaisyUI][DaisyUI.com]][DaisyUI-url]
 - [![Prisma][Prisma.io]][Prisma-url]
 - [![Supabase][Supabase.com]][Supabase-url]
 - [![Cypress][Cypress.io]][Cypress-url]
@@ -192,3 +193,5 @@ Project Link: [https://github.com/jennifertieu/pickle-connect](https://github.co
 [Cypress-url]: https://www.cypress.io/
 [Supabase.com]: https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white
 [Supabase-url]: https://supabase.com/
+[DaisyUI.com]: https://img.shields.io/badge/daisyui-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white
+[DaisyUI-url]: https://daisyui.com/
