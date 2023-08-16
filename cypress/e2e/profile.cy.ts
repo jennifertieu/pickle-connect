@@ -1,6 +1,16 @@
 describe("Profile", () => {
   // User data is fetched from the database
+  beforeEach(() => {
+    cy.intercept("GET", "/api/user/profile", {
+      fixture: "mock-user.json",
+    });
+  });
   // The user data will be displayed in the user form with a save button
+  it("user profile data displayed", () => {
+    cy.visit("/profile");
+
+    cy.contains("John Doe");
+  });
   // A validation error will show if the user tries to submit changes with empty required values
   // When a user saves changes, the data will send a request to the api to update their data in the database
   // The user has two options in the Visibility dropdown, Private or Public
