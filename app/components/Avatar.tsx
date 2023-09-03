@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Database } from "../database.types";
+import { Database } from "../types/database.types";
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";
 import Image from "next/image";
 type Profiles = Database["public"]["Tables"]["profiles"]["Row"];
@@ -78,12 +78,12 @@ export default function Avatar({
           height={size}
           src={avatarUrl}
           alt="Avatar"
-          className="avatar image"
+          className="image avatar"
           style={{ height: size, width: size }}
         />
       ) : (
         <div
-          className="avatar no-image"
+          className="no-image avatar"
           style={{ height: size, width: size }}
         />
       )}

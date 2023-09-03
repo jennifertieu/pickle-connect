@@ -1,7 +1,7 @@
 "use client";
 import { useCallback, useEffect, useState } from "react";
-import Avatar from "./avatar";
-import { Database } from "../database.types";
+import Avatar from "./Avatar";
+import { Database } from "../types/database.types";
 import {
   Session,
   createClientComponentClient,
