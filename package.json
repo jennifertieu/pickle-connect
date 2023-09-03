@@ -15,10 +15,14 @@
     "cypress:open": "cypress open"
   },
   "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.7.4",
+    "@supabase/auth-ui-react": "^0.4.3",
+    "@supabase/auth-ui-shared": "^0.1.6",
+    "@supabase/supabase-js": "^2.33.1",
+    "@tanstack/react-query": "^4.29.7",
     "@types/node": "20.5.9",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
-    "@tanstack/react-query": "^4.29.7",
     "autoprefixer": "10.4.15",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
@@ -36,6 +40,7 @@
     "@typescript-eslint/parser": "6.0.0",
     "cypress": "^13.1.0",
     "daisyui": "^3.5.1",
+    "encoding": "^0.1.13",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.2.8",
     "start-server-and-test": "^2.0.0"
