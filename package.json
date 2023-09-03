@@ -1,13 +1,12 @@
 {
-  "name": "pickleball-houston",
+  "name": "pickle-connect",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
     "dev": "next dev",
-    "postinstall": "prisma generate",
-    "lint": "next lint",
+    "build": "next build",
     "start": "next start",
+    "lint": "next lint",
     "test": "cypress run",
     "e2e": "start-server-and-test dev http://localhost:3000 \"cypress open --e2e\"",
     "e2e:headless": "start-server-and-test dev http://localhost:3000 \"cypress run --e2e\"",
@@ -16,36 +15,29 @@
     "cypress:open": "cypress open"
   },
   "dependencies": {
-    "@prisma/client": "^5.0.0",
-    "@t3-oss/env-nextjs": "^0.3.1",
+    "@types/node": "20.5.9",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
     "@tanstack/react-query": "^4.29.7",
-    "next": "^13.4.2",
+    "autoprefixer": "10.4.15",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.4.19",
+    "next": "13.4.19",
+    "postcss": "8.4.29",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "zod": "^3.21.4"
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
   },
   "devDependencies": {
     "@types/eslint": "^8.37.0",
-    "@types/node": "^18.16.0",
     "@types/prettier": "^2.7.2",
-    "@types/react": "^18.2.6",
-    "@types/react-dom": "^18.2.4",
     "@typescript-eslint/eslint-plugin": "6.0.0",
     "@typescript-eslint/parser": "6.0.0",
-    "autoprefixer": "^10.4.14",
-    "cypress": "^12.17.2",
+    "cypress": "^13.1.0",
     "daisyui": "^3.5.1",
-    "eslint": "^8.40.0",
-    "eslint-config-next": "^13.4.2",
-    "postcss": "^8.4.21",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.2.8",
-    "prisma": "^5.0.0",
-    "start-server-and-test": "^2.0.0",
-    "tailwindcss": "^3.3.0",
-    "typescript": "^5.0.4"
-  },
-  "ct3aMetadata": {
-    "initVersion": "7.16.0"
+    "start-server-and-test": "^2.0.0"
   }
 }
