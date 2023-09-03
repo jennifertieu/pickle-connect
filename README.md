@@ -135,17 +135,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Jennifer Tieu - [@jteacodes](https://twitter.com/jteacodes) - jennifer.tieuu@gmail.com
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-Project Link: [https://github.com/jennifertieu/pickle-connect](https://github.com/jennifertieu/pickle-connect)
+Eduardo Vazquez - [@Eduardo82545622](https://twitter.com/Eduardo82545622)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/jennifertieu
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
