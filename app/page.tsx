@@ -1,4 +1,5 @@
 import AuthForm from "./components/AuthForm";
+import MapboxMap from "./components/mapbox-map";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </div>
       <div className="col-6 auth-widget">
         <AuthForm />
+        <MapboxMap />
       </div>
     </div>
   );

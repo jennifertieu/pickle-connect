@@ -5,11 +5,13 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "PickleConnect",
+  title: "PickleBallConnect",
   description: "A pickleball social app",
 };
 
 export default function RootLayout({
+  // Layouts must accept a children prop.
+  // This will be populated with nested layouts or pages.
   children,
 }: {
   children: React.ReactNode;
