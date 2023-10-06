@@ -1,8 +1,8 @@
 'use client'
-import * as React from "react";
+import { useEffect, useState, useRef } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import { useState } from "react";
+
 // import the mapbox-gl styles so that the map is displayed correctly
 
 function MapboxMap() {
@@ -12,9 +12,9 @@ function MapboxMap() {
   // React ref to store a reference to the DOM node that will be used
   // as a required parameter `container` when initializing the mapbox-gl
   // will contain `null` by default
-  const mapNode = React.useRef(null);
+  const mapNode = useRef(null);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const node = mapNode.current;
     // if the window object is not found, that means
     // the component is rendered on the server
@@ -38,7 +38,7 @@ function MapboxMap() {
     };
   }, []);
 
-  return <div ref={mapNode} style={{ width: "100%", height: "100%" }} />;
+  return <div ref={mapNode} className="h-screen" />;
 }
 
 export default MapboxMap;
