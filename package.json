@@ -12,7 +12,8 @@
     "e2e:headless": "start-server-and-test dev http://localhost:3000 \"cypress run --e2e\"",
     "component": "cypress open --component",
     "component:headless": "cypress run --component",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "commitlint": "commitlint --edit"
   },
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.15.3",
@@ -36,6 +37,8 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
     "@types/eslint": "^8.37.0",
     "@types/mapbox-gl": "^2.7.15",
     "@types/prettier": "^2.7.2",
@@ -44,6 +47,7 @@
     "cypress": "^13.1.0",
     "daisyui": "^3.5.1",
     "encoding": "^0.1.13",
+    "husky": "^8.0.3",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.2.8",
     "start-server-and-test": "^2.0.0"
